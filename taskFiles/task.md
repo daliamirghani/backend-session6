@@ -1,6 +1,6 @@
 # Session 6 Task
 
-Please import the `OSC-Crew` and `Products` data from the files using this code snippet.
+Please import the `OSC-Crew` and `Products` data from the .json files using this code snippet.
 
   ```js
    const fs = require("fs");
