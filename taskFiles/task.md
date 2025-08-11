@@ -1,16 +1,26 @@
 # Session 6 Task
 
-Please import the `OSC-Crew` and `Products` data from the files using this code snippet. Solve each part (`OSC-Crew` and `Products`) in two seperate files.
+Please import the `OSC-Crew` and `Products` data from the files using this code snippet.
 
   ```js
-    const fs = require("fs");
-    const path = '' // write path here
-    const data = fs.readFileSync(path, "utf8", (e, data) => {
-      if (e) console.error(e);
-      else return data;
-    });
-    let sData = JSON.parse(data);
+   const fs = require("fs");
+const path = ''; // write path here
+const data = fs.readFileSync(path, "utf8");
+let sData = JSON.parse(data);
+
   ```
+
+ Solve each part (`OSC-Crew` and `Products`) in two separate .js files. The structure of your solution folder should look as follows:
+ 
+```
+yourName
+├── OSC-System.js
+├── OSC-System.json
+├── Products.js
+├── Products.json
+├── package-lock.json
+└── package.json
+```
 
 ### OSC Crew Endpoints [OSC-System.json](./OSC-System.json)
 
