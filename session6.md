@@ -118,8 +118,9 @@ const users = [
 ```
 1) Get all users & add an option to filter based on name
 2) Add a new user to our array
-3) Update a user's skill level on any hobby by ID
-4) **Bonus:** Add a hobby to a user given their ID
+3) Add a hobby to a user given their ID
+4) **Bonus:** Update a user's skill level on any hobby by ID
+
 
 ### How to get key and value names in an object
 ``` js
